@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/',views.home),
     path('saving/',views.save),
+    path("vinod/",views.vinod)
 ]
